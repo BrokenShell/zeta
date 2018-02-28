@@ -1,5 +1,5 @@
 /*
-Title:      Finite Zeta Function Approximation in Chapel
+Title:      Zeta Function Approximation in Chapel
 Author:     Broken
 Date:       April 21, 2017
 File Name:  zeta.chpl
