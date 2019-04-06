@@ -15,9 +15,9 @@ Runtime:    Approximately 10 seconds or less on an average PC
 config const S: real = 2.0;
 
 proc zeta(s) {
-  var (c, i, z) = (0.0, 1.0, 299792458);
-  while (i < z) do (c, i) = (c + 1 / i**s, i + 1);
-  return c;
+  var (d, i, C) = (0.0, 1.0, 299792458);
+  while (i < C) do (d, i) = (d + 1 / i ** s, i + 1);
+  return d;
 }
 
 proc main() {
