@@ -26,6 +26,6 @@ proc main() {
   } else {
     // should raise value error or 
     writeln("By definition zeta(1) is undefined.");
-    writeln("Param --S must be a whole number greater than one.");
+    writeln("Param --S must be greater than one.");
   }
 }
