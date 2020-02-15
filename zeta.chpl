@@ -22,7 +22,7 @@ proc zeta(s) {
 
 proc main() {
   if S > 1 {
-    writeln("zeta(%i) = %0.52r".format(S, zeta(S)));
+    writeln("zeta(%r) = %0.52r".format(S, zeta(S)));
   } else {
     // should raise value error or 
     writeln("By definition zeta(1) is undefined.");
